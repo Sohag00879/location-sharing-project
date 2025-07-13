@@ -74,12 +74,9 @@ http://localhost:3000
 ````
 
 🔌 API Integration
+
 📡 SignalR Hub
 Hub URL: https://tech-test.raintor.com/Hub
-
-Send Method: SendLatLon(lat, lon, userName)
-
-Receive Method: ReceiveLatLon
 
 Features:
 
@@ -91,12 +88,6 @@ Integrated into a reusable useSignalR() hook
 
 📂 User Feed API
 Endpoint: https://tech-test.raintor.com/api/users/GetUsersList
-
-Parameters:
-
-take: Number of users to fetch per request
-
-skip: Offset for pagination
 
 Features:
 
