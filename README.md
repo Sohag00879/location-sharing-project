@@ -77,19 +77,6 @@ http://localhost:3000
 📡 SignalR Hub
 URL: https://tech-test.raintor.com/Hub
 
-Send Method: SendLatLon(lat, lon, userName)
-
-Receive Method: ReceiveLatLon
-
-Auto-reconnection & connection state management
-
 📂 User Feed API
 Endpoint: https://tech-test.raintor.com/api/users/GetUsersList
-
-Parameters:
-
-take: number of items per page
-
-skip: offset for pagination
-
 Integrated with infinite scroll and error retry
