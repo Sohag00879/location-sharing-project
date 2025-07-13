@@ -82,7 +82,9 @@ Endpoint: https://tech-test.raintor.com/api/users/GetUsersList
 Integrated with infinite scroll and error retry
 
 ✨ Key Implementation Highlights
+
 📍 Real-Time GPS
+
 useSignalR() hook encapsulates all logic
 
 User A sends real-time or manual coordinates
@@ -94,6 +96,7 @@ Marker color differentiation for self vs. others
 Connection status & error states shown via UI
 
 👥 Infinite User Feed
+
 useInfiniteQuery() manages pagination and caching
 
 UserCard and UserCardSkeleton components
