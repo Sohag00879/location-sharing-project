@@ -78,12 +78,16 @@ http://localhost:3000
 URL: https://tech-test.raintor.com/Hub
 
 📂 User Feed API
+
 Endpoint: https://tech-test.raintor.com/api/users/GetUsersList
+
 Integrated with infinite scroll and error retry
 
 ✨ Key Implementation Highlights
 
+
 📍 Real-Time GPS
+
 
 useSignalR() hook encapsulates all logic
 
