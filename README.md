@@ -74,27 +74,6 @@ npm run build
 npm start
 \`\`\`
 
-## 🏗️ Project Structure
-
-\`\`\`
-├── app/
-│   ├── globals.css          # Global styles
-│   ├── layout.tsx           # Root layout
-│   ├── page.tsx             # Home page
-│   └── providers.tsx        # App providers
-├── components/
-│   ├── ui/                  # shadcn/ui components
-│   ├── location-sharing.tsx # Real-time location component
-│   ├── location-map.tsx     # Leaflet map component
-│   ├── user-feed.tsx        # Infinite scroll feed
-│   ├── user-card.tsx        # User display card
-│   └── user-card-skeleton.tsx # Loading skeleton
-├── hooks/
-│   └── use-signalr.ts       # Custom SignalR hook
-└── lib/
-    └── utils.ts             # Utility functions
-\`\`\`
-
 ## 🔧 API Integration
 
 ### SignalR Hub
@@ -219,8 +198,8 @@ The application includes:
 ## 📞 Support
 
 For any questions or issues:
-- **Emergency Contact**: +8801782065131 (Phone or WhatsApp)
-- **Email**: [Your email for assessment]
+- **Emergency Contact**: +8801718164125(Phone or WhatsApp)
+- **Email**: sohagislamdeveloper@gmail.com
 
 ---
 
