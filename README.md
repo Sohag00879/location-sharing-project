@@ -60,7 +60,7 @@ A comprehensive **Next.js 14** application demonstrating:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/location-sharing.git
+git clone https://github.com/Sohag00879/location-sharing-project.git
 cd location-sharing
 
 # 2. Install dependencies
