@@ -74,7 +74,9 @@ http://localhost:3000
 ````
 
 🔌 API Integration
+
 📡 SignalR Hub
+
 URL: https://tech-test.raintor.com/Hub
 
 📂 User Feed API
