@@ -74,41 +74,34 @@ http://localhost:3000
 ````
 
 🔌 API Integration
-
 📡 SignalR Hub
+Hub URL: https://tech-test.raintor.com/Hub
 
-URL: https://tech-test.raintor.com/Hub
+Send Method: SendLatLon(lat, lon, userName)
+
+Receive Method: ReceiveLatLon
+
+Features:
+
+Real-time GPS broadcasting
+
+Auto-reconnection with state tracking
+
+Integrated into a reusable useSignalR() hook
 
 📂 User Feed API
-
 Endpoint: https://tech-test.raintor.com/api/users/GetUsersList
 
-Integrated with infinite scroll and error retry
+Parameters:
 
-✨ Key Implementation Highlights
+take: Number of users to fetch per request
 
+skip: Offset for pagination
 
-📍 Real-Time GPS
+Features:
 
+Infinite scrolling support
 
-useSignalR() hook encapsulates all logic
+Error retry mechanism with exponential backoff
 
-User A sends real-time or manual coordinates
-
-User B listens and displays location on Leaflet map
-
-Marker color differentiation for self vs. others
-
-Connection status & error states shown via UI
-
-👥 Infinite User Feed
-
-useInfiniteQuery() manages pagination and caching
-
-UserCard and UserCardSkeleton components
-
-IntersectionObserver for scroll detection
-
-Fully virtualized list for performance
-
-Retry button and error boundaries
+Virtualized rendering for performance
